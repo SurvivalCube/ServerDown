@@ -14,9 +14,9 @@
 
 A basic implementation of the Minecraft protocol
 
-![Server list](http://i.imgur.com/m4X3oFv.png)
+![Server List](https://user-images.githubusercontent.com/43764702/122618867-41801a00-d0e3-11eb-8d71-dcf0d3fed940.png)
 
-![](http://i.imgur.com/c0oh6ij.png)
+![image](https://user-images.githubusercontent.com/43764702/122618904-5361bd00-d0e3-11eb-8c2b-6f02baff3d10.png)
 
 ---
 
