@@ -72,7 +72,7 @@ public class UserConnection {
             if (packet.getId() == 0x00) { // status request
                 server.log("Got status request");
 
-                StatusResponsePacket response = new StatusResponsePacket("1.9.0", 107, 50, 5, "Hello from Josh's server");
+                StatusResponsePacket response = new StatusResponsePacket("Temporarily Closed", 0, 10000, 0, "§aSurvivalCube Network §c[Temporarily Closed]\n§bVisit survivalcube.net for more information.");
                 sendData(response.encode());
             } else if (packet.getId() == 0x01) {
                 server.log("Got ping request");
@@ -87,7 +87,7 @@ public class UserConnection {
                 LoginStartPacket loginStartPacket = (LoginStartPacket) packet;
                 server.log("Found name: " + loginStartPacket.getName());
 
-                LoginDisconnectPacket loginDisconnectPacket = new LoginDisconnectPacket("§4This server doesn't support logging in,§d " + loginStartPacket.getName());
+                LoginDisconnectPacket loginDisconnectPacket = new LoginDisconnectPacket("§aSurvivalCube.net is temporarily closed.\n§bVisit survivalcube.net for more information.");
                 sendData(loginDisconnectPacket.encode());
             }
         }
