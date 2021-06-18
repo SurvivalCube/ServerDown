@@ -1,4 +1,5 @@
-# MinecraftServer
+# ServerDown
+Fork of [ursinn's MinecraftServer](https://github.com/ursinn/MinecraftServer) customized for SurvivalCube.
 
 [![Build status (Travis)](https://img.shields.io/travis/com/ursinn/MinecraftServer/develop?label=Travis&logo=travis)](https://travis-ci.com/ursinn/MinecraftServer)
 [![Build status (Jenkins)](https://img.shields.io/jenkins/build?jobUrl=https%3A%2F%2Fci.ursinn.dev%2Fjob%2Fursinn%2Fjob%2FMinecraftServer%2Fjob%2Fdevelop%2F&label=Jenkins&logo=jenkins)](https://ci.ursinn.dev/job/ursinn/job/MinecraftServer)
